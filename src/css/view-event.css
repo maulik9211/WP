@@ -1,0 +1,14 @@
+.image-container{
+    position: relative;
+    color:white;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.top-left{
+    position: absolute;
+    top:0px;
+    left:24px;
+}

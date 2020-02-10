@@ -1,13 +1,12 @@
 .flex-container {
     border:1px solid lavender;
     border-radius: 20px;
-    margin: 70px;
+    margin: 10%;
     display: flex;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding: 20px;
+    padding: 3%;
     align-items:center;
     flex-direction: column;
+    justify-content: space-around;
 }
 .flex-item{
     margin: 3px;
@@ -18,4 +17,7 @@
     border-radius: 10px;
     padding: 5px;
     display: inline;
+}
+td{
+    padding: 10px;
 }
