@@ -1,0 +1,14 @@
+.flex-container {
+    border:1px solid lavender;
+    border-radius: 20px;
+    margin: 70px;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+    align-items:center;
+    flex-direction: column;
+}
+.flex-item{
+    margin: 3px;
+}

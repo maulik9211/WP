@@ -1,0 +1,13 @@
+.flex-container {
+    margin: 70px;
+    display: flex;
+    border: 1px solid black;
+    padding: 20px;
+    height: 200px;
+    /* justify-content: center; */
+    align-items:center;
+    flex-direction: column;
+}
+.flex-item{
+    margin: 3px;
+}
