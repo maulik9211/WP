@@ -10,3 +10,26 @@ a{
     color:lavender;
     padding: 10px;    
 }
+
+.over-image{
+    /* border:1px solid black;
+    border-radius: 50px; */
+    position: absolute;
+    left: 38.5px;
+    top: 30.4px;
+    z-index: 0;
+}
+
+#rotate{
+    animation: rotation 15s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-359deg);
+    }
+  }
+  
