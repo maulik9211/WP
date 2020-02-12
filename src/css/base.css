@@ -17,8 +17,9 @@ body{
     font-size: 20px;
 
     color:lavender;
-    background-color: #5b5ea6; 
-
+    /* background-color: #5b5ea6;  */
+    background-image: url("../assets/bg.jpg");
+    background-size: cover;
 }
 a{
     color:lavender;
