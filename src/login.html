@@ -2,10 +2,9 @@
     <head>
         <link rel="icon" href="assets/logo.png" type="image/png" sizes="16x16">
         <title> Login </title>
-        <link rel="stylesheet" type="text/css" href="./css/base.css"/>
-      
         <link rel="stylesheet" type="text/css" href="./css/flex.css"/>
         <link rel="stylesheet" type="text/css" href="./css/form.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/base.css"/>
         
         
 
@@ -24,33 +23,31 @@
         <hr style="color:white">
     </header>
         
-    <form method="">
 
-        <article class="flex-container">
-            <section class="flex-item">
-                  <h2>Login</h2>
-            </section>
-            <section class="flec-item">
-                <img src="./login.png"  style="border-radius:50%;border:3px solid dodgerblue;height:120px">
-            </section>
-        <section class="flex-item">
-        <label>Username</label>
-        <input  class="input-text" type="email" name="email"> <br>
-        </section>    
-        <section class="flex-item">   
-        <label>Password</label>
-        <input  class="input-text" type="password" name="pass" ><br>
-        </section>
-        <section class="flex-item">
-        <button name="submit" class="input-submit">Sign in</button><br>
-        <a href="./forgot1.html">Forgot Password?</a>
-        </section>
-        </article>
-    </form>    
-        
-     
-
+    <section class="flex-container">
+        <form method="">
+            <table>
+                <tr>
+                    <td colspan="2" style="text-align: center;"> <h1>Login Panel</h1> </td>
+                </tr>      
+                <tr>
+                    <td colspan="2" style="text-align: center;"><img src="./assets/login.png"  style="border-radius:50%;border:3px solid dodgerblue;height:120px"></td>
+                </tr>
+                <tr>
+                    <td>Username</td>
+                    <td><input  class="input-text" type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input  class="input-text" type="password" name="pass" ></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;"><button name="submit" class="input-submit">Sign in</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;"><a href="./forgot1.html">Forgot Password?</a></td>
+                </tr>
+        </form>    
+    </section>
 </body>
-       
-
 </html>

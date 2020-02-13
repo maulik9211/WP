@@ -14,7 +14,7 @@
 body{
     /* font-family:    'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-family: "Montserrat-Medium";
-    font-size: 20px;
+    font-size: 1.5vw;
 
     color:lavender;
     /* background-color: #5b5ea6;  */
@@ -22,9 +22,12 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-a{
+a[href="https://daiict.ac.in"]{
     color:lavender;
     padding: 10px;    
+}
+a{
+  color:lavender;
 }
 
 .over-image{
