@@ -20,6 +20,7 @@ body{
     /* background-color: #5b5ea6;  */
     background-image: url("../assets/bg.jpg");
     background-size: cover;
+    background-attachment: fixed;
 }
 a{
     color:lavender;
@@ -35,6 +36,9 @@ a{
     z-index: 0;
 }
 
+
+
+
 #rotate{
     animation: rotation 15s infinite linear;
 }
@@ -47,4 +51,6 @@ a{
       transform: rotate(-359deg);
     }
   }
+  
+
   
