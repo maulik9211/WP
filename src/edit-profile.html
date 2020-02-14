@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html>
     <head>
         <link rel="icon" href="assets/logo.png" type="image/png" sizes="16x16">
@@ -6,8 +6,9 @@
             Edit Profile
         </title>
         <link rel="stylesheet" type="text/css" href="css/flex.css">
-        <link rel="stylesheet" type="text/css" href="css/base.css">
         <link rel="stylesheet" type="text/css" href="css/form.css">
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+        
 
         <script src="js/edit-profile.js"></script>
     </head>
@@ -40,7 +41,6 @@
                 <canvas id="myCanvas" width="200" height="150">
                         Your browser does not support the HTML5 canvas tag.</canvas>
             </section>
-            <section class="flex-item">
                 <form>
                     <table>
                         <tr>
@@ -48,26 +48,24 @@
                             <td> <input class="input-text" type="text"></td>
                         </tr>
                         <tr>
-                            <td>Email </td>
+                            <td class="temp">Email </td>
                             <td> <input class="input-text" type="email"></td>
                         </tr>
                         <tr>
-                            <td>Convener</td>
+                            <td class="temp">Convener</td>
                             <td> <input class="input-text" type="tel"></td>
                         </tr>
                         <tr>
-                            <td>Contact Number </td>
+                            <td class="temp">Contact Number </td>
                             <td> <input class="input-text" type="tel"></td>
                         </tr>
-                            
-                    </table>
-                     
-                    
+            
+                         <tr>
+                               <td colspan="2"  style="text-align:center"><input type="submit" class="input-submit" value="Save Details" ></td>
+                          </tr>
+           
+                        </table>
+                </form>
             </section>
-            <section class="flex-item">
-                <input type="submit" class="input-submit" value="Save Details">
-            </section>
-        </form>
-        </section>
     </body>
 </html>
